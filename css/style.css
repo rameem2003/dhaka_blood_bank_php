@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    /* overflow: hidden; */
+}
+
+.title{
+    font-size: 50px;
+}
+
+/* header */
+header .navbar-brand{
+    width: 50%;
+}
+
+.logo{
+    width: 15%;
+}
+
+
+header li a{
+    font-size: 20px;
+}
+
+/* header end */
+
+
+/* list */
+.list{
+    margin-top: 100px;
+}
+/* list end */
+
+/* banner */
+#banner{
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('https://www.tbsnews.net/sites/default/files/styles/big_2/public/images/2021/06/14/blood_donate.jpg?itok=VZm5p8vE&timestamp=1623642374');
+    object-fit: cover;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#banner .blur{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#banner h1{
+    font-size: 100px;
+}
+#banner h2{
+    font-size: 90px;
+}
+/* banner end */
+
+
+/* about */
+#about, #members, #president{
+    min-height: 80vh;
+}
+/* about end */
+
+
+
+/* president */
+#president img{
+    width: 60%;
+}
+/* president end */
+
+
+
+/* members */
+#members .profile{
+    border-radius: 15px;
+}
+#members .profile .pro-des .name{
+    font-weight: bolder;
+    font-size: 37px;
+}
+#members .profile .pro-des .blood{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#members .profile .pro-des .card-info{
+    font-weight: bolder;
+}
+#members .pro-img{
+    text-align: center;
+}
+
+#members .pro-img img{
+    width: 50%;
+    object-fit: cover;
+}
+#members .coustom_btn{
+    width: 40%;
+}
+/* members end */
+
+
+
+
+
+
+/* register  */
+.form, .login_form{
+    margin-top: 130px;
+}
+/* register end */
+
+
+
+
+
+
+
+
+/* footer */
+footer img{
+    width: 85%;
+}
+
+footer ul li{
+    display: inline-block;
+    font-size: 20px;
+}
+/* footer end */
+
+@media screen and (max-width: 500px) {
+    .logo{
+        width: 45%;
+    }
+
+    #banner{
+        height: 80vh;
+    }
+    #banner h1{
+        font-size: 40px;
+    }
+
+    #banner h2{
+        font-size: 35px;
+    }
+
+
+    footer img{
+        width: 40%;
+    }
+}
