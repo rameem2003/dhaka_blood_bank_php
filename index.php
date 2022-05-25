@@ -164,7 +164,7 @@
 
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <a class="btn btn-warning" href="./donors/donors.html">Show more....</a>
+                    <a class="btn btn-warning" href="./donors.php">Show more....</a>
                 </div>
             </div>
         </div>
