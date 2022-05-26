@@ -68,10 +68,10 @@
 
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                   <ul class="navbar-nav ml-auto">
-                    <li class="nav-item px-2"><a class="nav-link text-white" href="../index.html">Home</a></li>
-                    <li class="nav-item px-2"><a class="nav-link text-white" href="../index.html#about">About Us</a></li>
-                    <li class="nav-item px-2"><a class="nav-link text-white" href="../index.html#members">Our Donor</a></li>
-                    <li class="nav-item px-2"><a class="nav-link text-white" target="_blank" href="https://forms.gle/jzfJP76cfYnsZuS9A">Join as Donor</a></li>
+                    <li class="nav-item px-2"><a class="nav-link text-white" href="./index.php">Home</a></li>
+                    <li class="nav-item px-2"><a class="nav-link text-white" href="./index.php#about">About Us</a></li>
+                    <li class="nav-item px-2"><a class="nav-link text-white" href="./index.php#members">Our Donor</a></li>
+                    <li class="nav-item px-2"><a class="nav-link text-white" target="_blank" href="./register.php">Join as Donor</a></li>
                   </ul>
                 </div>
             </nav>
@@ -140,6 +140,7 @@
 
                     <label class="my-3" for="cpass">Confirm password </label>
                     <input class="form-control" type="password" name="cpass" id="cpass">
+                    <p class="text-danger" id="validate"></p>
 
 
                     <label class="my-3" for="phone">Phone Number: </label>
@@ -189,5 +190,28 @@
         </div>
     </footer>
     <!-- footer end -->
+
+    <script>
+        
+        const cpass = document.getElementById("cpass");
+        
+        cpass.addEventListener("keyup", () => {
+            const pass = document.getElementById("pass").value;
+            const validate = document.getElementById("validate");
+            // confirm_pass = cpass.value;
+
+            if(pass != cpass.value){
+                validate.style.display = "block";
+                validate.innerHTML = "Password not matched!!";
+            }else{
+                validate.innerHTML = "";
+                validate.style.display = "none";
+            }
+
+
+            console.log(pass, cpass.value);
+        })
+        
+    </script>
 </body>
 </html>

@@ -67,10 +67,10 @@
 
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                   <ul class="navbar-nav ml-auto">
-                    <li class="nav-item px-2"><a class="nav-link text-white" href="../index.html">Home</a></li>
-                    <li class="nav-item px-2"><a class="nav-link text-white" href="../index.html#about">About Us</a></li>
-                    <li class="nav-item px-2"><a class="nav-link text-white" href="../index.html#members">Our Donor</a></li>
-                    <li class="nav-item px-2"><a class="nav-link text-white" target="_blank" href="https://forms.gle/jzfJP76cfYnsZuS9A">Join as Donor</a></li>
+                    <li class="nav-item px-2"><a class="nav-link text-white" href="./index.php">Home</a></li>
+                    <li class="nav-item px-2"><a class="nav-link text-white" href="./index.php#about">About Us</a></li>
+                    <li class="nav-item px-2"><a class="nav-link text-white" href="./index.php#members">Our Donor</a></li>
+                    <li class="nav-item px-2"><a class="nav-link text-white" target="_blank" href="./register.php">Join as Donor</a></li>
                   </ul>
                 </div>
             </nav>
