@@ -19,7 +19,7 @@
 
 
         if($pass != $cpass){
-            echo '<script> alert("Password not matching!!!"); </script>';
+            $msg[] = "Password not matching!!!";
         }else{
             mysqli_query($conn, $insert_query);
             $msg[] = "Registration Succesfull";
